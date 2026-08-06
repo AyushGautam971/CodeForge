@@ -95,6 +95,7 @@ const authSlice = createSlice({
       .addCase(registerUser.rejected, (state, action) => {
         state.loading = false;
         state.error = action.payload || 'Something went wrong';
+        alert("Invalid credential or weak password")
         state.isAuthenticated = false;
         state.user = null;
       })
