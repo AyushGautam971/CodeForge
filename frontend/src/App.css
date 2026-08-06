@@ -1,0 +1,31 @@
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .sm\:overflow-x-scroll {
+    overflow-x: scroll;
+  }
+}
+
+
+
+.logo {
+  font-size: 48px;
+  font-weight: 800;
+  font-family: monospace;
+
+  background: linear-gradient(
+    90deg,
+    #5B3DF5 0%,
+    #7C3AED 40%,
+    #A855F7 70%,
+    #EC4899 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
